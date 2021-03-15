@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BookListViewController" customModule="BitsoChallenge" customModuleProvider="target">
+            <connections>
+                <outlet property="bookListTableView" destination="Z2r-3W-sWb" id="LxJ-xz-gTc"/>
+                <outlet property="headerView" destination="abh-2c-aQR" id="9Qm-bH-92k"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="abh-2c-aQR">
+                    <rect key="frame" x="0.0" y="44" width="414" height="89.5"/>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Z2r-3W-sWb">
+                    <rect key="frame" x="0.0" y="133.5" width="414" height="728.5"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="separatorColor" red="0.074549190700000004" green="0.074444599449999996" blue="0.078432001170000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Z2r-3W-sWb" secondAttribute="trailing" id="3ls-2D-0Yp"/>
+                <constraint firstAttribute="trailing" secondItem="abh-2c-aQR" secondAttribute="trailing" id="ExI-sQ-I3K"/>
+                <constraint firstItem="abh-2c-aQR" firstAttribute="top" secondItem="KuL-kU-DQQ" secondAttribute="top" id="Igq-FB-8O1"/>
+                <constraint firstItem="KuL-kU-DQQ" firstAttribute="bottom" secondItem="Z2r-3W-sWb" secondAttribute="bottom" id="JYw-Kx-VCd"/>
+                <constraint firstItem="abh-2c-aQR" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.1" id="fiq-nK-vYV"/>
+                <constraint firstItem="Z2r-3W-sWb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="r9N-MM-wyE"/>
+                <constraint firstItem="abh-2c-aQR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="rVo-0M-Kip"/>
+                <constraint firstItem="Z2r-3W-sWb" firstAttribute="top" secondItem="abh-2c-aQR" secondAttribute="bottom" id="yKB-o8-fP2"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="KuL-kU-DQQ"/>
+            <point key="canvasLocation" x="139" y="125"/>
+        </view>
+    </objects>
+</document>

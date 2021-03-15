@@ -1,0 +1,16 @@
+PODS:
+  - AAInfographics (6.0.0)
+
+DEPENDENCIES:
+  - AAInfographics (~> 6.0.0)
+
+SPEC REPOS:
+  trunk:
+    - AAInfographics
+
+SPEC CHECKSUMS:
+  AAInfographics: e57c6cc15ddc17df3555db6f586fb0e1b911a0b7
+
+PODFILE CHECKSUM: 73307de45fe06d464d4a9989d1ccbb4052d8d055
+
+COCOAPODS: 1.9.3

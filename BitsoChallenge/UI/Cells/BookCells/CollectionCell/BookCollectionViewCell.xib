@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="BookCollectionViewCell" customModule="BitsoChallenge" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="190" height="128"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="190" height="128"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7H9-m6-7B0">
+                        <rect key="frame" x="0.0" y="0.0" width="190" height="128"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="3pR-jh-Akc">
+                                <rect key="frame" x="16" y="41" width="158" height="46"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DMW-Hr-JSV">
+                                        <rect key="frame" x="0.0" y="0.0" width="158" height="20.5"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bp-HF-oEd">
+                                        <rect key="frame" x="0.0" y="25.5" width="158" height="20.5"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" red="0.51000088450000003" green="0.50947779419999994" blue="0.52941489220000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="3pR-jh-Akc" secondAttribute="trailing" constant="16" id="8RW-FI-iUQ"/>
+                            <constraint firstItem="3pR-jh-Akc" firstAttribute="leading" secondItem="7H9-m6-7B0" secondAttribute="leading" constant="16" id="Ok0-bY-5ht"/>
+                            <constraint firstItem="3pR-jh-Akc" firstAttribute="centerY" secondItem="7H9-m6-7B0" secondAttribute="centerY" id="m3e-7V-W1Z"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="7H9-m6-7B0" secondAttribute="bottom" id="cY4-fa-mkT"/>
+                <constraint firstAttribute="trailing" secondItem="7H9-m6-7B0" secondAttribute="trailing" id="kXF-gv-OZH"/>
+                <constraint firstItem="7H9-m6-7B0" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="rJu-qW-RQA"/>
+                <constraint firstItem="7H9-m6-7B0" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="wCe-1s-iT1"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="190" height="128"/>
+            <connections>
+                <outlet property="bookLabel" destination="DMW-Hr-JSV" id="NTK-ZX-Rys"/>
+                <outlet property="priceLabel" destination="0bp-HF-oEd" id="RNq-Aa-f7Z"/>
+            </connections>
+            <point key="canvasLocation" x="191.30434782608697" y="116.51785714285714"/>
+        </collectionViewCell>
+    </objects>
+</document>

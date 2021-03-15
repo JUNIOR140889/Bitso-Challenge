@@ -1,0 +1,1073 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AADE8B452D52CD67BE256F6 /* Pods_BitsoChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D93A1AFF7474FD0A282E3664 /* Pods_BitsoChallengeTests.framework */; };
+		36A2F617D8DC58E82202B2DA /* Pods_BitsoChallenge_BitsoChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9330DF5388F050BC5FBE8B /* Pods_BitsoChallenge_BitsoChallengeUITests.framework */; };
+		AB6318D425FE3F6500357361 /* BookInfiniteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6318D225FE3F6500357361 /* BookInfiniteViewController.swift */; };
+		AB6318D525FE3F6500357361 /* BookInfiniteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB6318D325FE3F6500357361 /* BookInfiniteViewController.xib */; };
+		AB6318D925FE49BE00357361 /* BookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6318D725FE49BE00357361 /* BookCollectionViewCell.swift */; };
+		AB6318DA25FE49BE00357361 /* BookCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB6318D825FE49BE00357361 /* BookCollectionViewCell.xib */; };
+		AB77AB9325FE324B00771F70 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB77AB9225FE324B00771F70 /* LoadingView.swift */; };
+		AB9DFF3F25FEEF73001F8657 /* AvailableBooks.json in Resources */ = {isa = PBXBuildFile; fileRef = AB9DFF3E25FEEF73001F8657 /* AvailableBooks.json */; };
+		AB9DFF4325FEEFD9001F8657 /* Book.json in Resources */ = {isa = PBXBuildFile; fileRef = AB9DFF4225FEEFD9001F8657 /* Book.json */; };
+		AB9DFF4525FEF02D001F8657 /* ChartData.json in Resources */ = {isa = PBXBuildFile; fileRef = AB9DFF4425FEF02D001F8657 /* ChartData.json */; };
+		AB9DFF4B25FEF2ED001F8657 /* AvailableBooksNetworkingMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9DFF4A25FEF2ED001F8657 /* AvailableBooksNetworkingMock.swift */; };
+		AB9DFF4D25FEF965001F8657 /* RepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9DFF4C25FEF965001F8657 /* RepositoryTests.swift */; };
+		AB9DFF5125FF02B9001F8657 /* NetworkingFailureMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9DFF5025FF02B9001F8657 /* NetworkingFailureMock.swift */; };
+		AB9DFF5325FF02FD001F8657 /* BookNetworkingMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9DFF5225FF02FD001F8657 /* BookNetworkingMock.swift */; };
+		AB9DFF5625FF031F001F8657 /* ChartNetworkingMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9DFF5525FF031F001F8657 /* ChartNetworkingMock.swift */; };
+		ABE54EA825FE56E00067E292 /* BookInfiniteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE54EA725FE56E00067E292 /* BookInfiniteViewModel.swift */; };
+		ABE54EAA25FE70350067E292 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE54EA925FE70350067E292 /* UIViewController+Extension.swift */; };
+		ABE54EAE25FE74800067E292 /* HeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE54EAC25FE74800067E292 /* HeaderViewController.swift */; };
+		ABE54EAF25FE74800067E292 /* HeaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABE54EAD25FE74800067E292 /* HeaderViewController.xib */; };
+		ABE54EB125FE75C40067E292 /* HeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE54EB025FE75C40067E292 /* HeaderViewModel.swift */; };
+		ABEC530C25FC173A00B1EE95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEC530B25FC173A00B1EE95 /* AppDelegate.swift */; };
+		ABEC530E25FC173A00B1EE95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEC530D25FC173A00B1EE95 /* SceneDelegate.swift */; };
+		ABEC531025FC173A00B1EE95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEC530F25FC173A00B1EE95 /* ViewController.swift */; };
+		ABEC531325FC173A00B1EE95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABEC531125FC173A00B1EE95 /* Main.storyboard */; };
+		ABEC531525FC174000B1EE95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABEC531425FC174000B1EE95 /* Assets.xcassets */; };
+		ABEC531825FC174000B1EE95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABEC531625FC174000B1EE95 /* LaunchScreen.storyboard */; };
+		ABEC532325FC174000B1EE95 /* BitsoChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEC532225FC174000B1EE95 /* BitsoChallengeTests.swift */; };
+		ABEC532E25FC174000B1EE95 /* BitsoChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEC532D25FC174000B1EE95 /* BitsoChallengeUITests.swift */; };
+		ABEC533D25FC1E3F00B1EE95 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEC533C25FC1E3F00B1EE95 /* NetworkingService.swift */; };
+		ABEC534025FC3BBA00B1EE95 /* AvailableBooksDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEC533F25FC3BBA00B1EE95 /* AvailableBooksDTO.swift */; };
+		ABEC534825FC57E300B1EE95 /* Paths.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEC534725FC57E300B1EE95 /* Paths.swift */; };
+		ABEC534A25FC585C00B1EE95 /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEC534925FC585C00B1EE95 /* TargetType.swift */; };
+		ABEC534C25FC59D400B1EE95 /* MainApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEC534B25FC59D400B1EE95 /* MainApi.swift */; };
+		ABEC534E25FC5D2B00B1EE95 /* NetworkRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEC534D25FC5D2B00B1EE95 /* NetworkRepository.swift */; };
+		ABEC535025FC5DDD00B1EE95 /* BookDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEC534F25FC5DDD00B1EE95 /* BookDTO.swift */; };
+		ABEC536325FD08B400B1EE95 /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEC536225FD08B400B1EE95 /* NSObject+Extension.swift */; };
+		ABEC537025FD830900B1EE95 /* BookListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEC536925FD830900B1EE95 /* BookListViewController.swift */; };
+		ABEC537125FD830900B1EE95 /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEC536B25FD830900B1EE95 /* BookTableViewCell.swift */; };
+		ABEC537225FD830900B1EE95 /* BookTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABEC536C25FD830900B1EE95 /* BookTableViewCell.xib */; };
+		ABEC537325FD830900B1EE95 /* BookCellDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEC536D25FD830900B1EE95 /* BookCellDataSource.swift */; };
+		ABEC537425FD830900B1EE95 /* BookListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEC536E25FD830900B1EE95 /* BookListViewModel.swift */; };
+		ABEC537525FD830900B1EE95 /* BookListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABEC536F25FD830900B1EE95 /* BookListViewController.xib */; };
+		ABEC537925FD837F00B1EE95 /* BookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEC537725FD837F00B1EE95 /* BookDetailViewController.swift */; };
+		ABEC537A25FD837F00B1EE95 /* BookDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABEC537825FD837F00B1EE95 /* BookDetailViewController.xib */; };
+		ABEC537C25FD83A700B1EE95 /* BookDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEC537B25FD83A700B1EE95 /* BookDetailViewModel.swift */; };
+		ABEC537F25FD890400B1EE95 /* SlidePresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEC537E25FD890400B1EE95 /* SlidePresentationController.swift */; };
+		ABEC538125FD8BE100B1EE95 /* SlidePresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEC538025FD8BE100B1EE95 /* SlidePresentationManager.swift */; };
+		ABF934E625FE8B8A00944789 /* AvailableBooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF934E525FE8B8A00944789 /* AvailableBooks.swift */; };
+		ABF9582625FECE5A002CBAC9 /* ChartDataDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF9582525FECE5A002CBAC9 /* ChartDataDTO.swift */; };
+		ABF9582825FECF31002CBAC9 /* ChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF9582725FECF31002CBAC9 /* ChartData.swift */; };
+		E0CD073B03E3DCB85AE5CD00 /* Pods_BitsoChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28B924F6C6A70AC8E04A43D /* Pods_BitsoChallenge.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABEC531F25FC174000B1EE95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABEC530025FC173A00B1EE95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABEC530725FC173A00B1EE95;
+			remoteInfo = BitsoChallenge;
+		};
+		ABEC532A25FC174000B1EE95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABEC530025FC173A00B1EE95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABEC530725FC173A00B1EE95;
+			remoteInfo = BitsoChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CB9C43F18BCAE1D89404CF9 /* Pods-BitsoChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitsoChallenge.release.xcconfig"; path = "Target Support Files/Pods-BitsoChallenge/Pods-BitsoChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		186810F7102966DF23B9F462 /* Pods-BitsoChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitsoChallenge.debug.xcconfig"; path = "Target Support Files/Pods-BitsoChallenge/Pods-BitsoChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		1DA8DD8688BFE530EEFB376A /* Pods-BitsoChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitsoChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-BitsoChallengeTests/Pods-BitsoChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		29BA95A757DDCC98E3437F83 /* Pods-BitsoChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitsoChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-BitsoChallengeTests/Pods-BitsoChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B9330DF5388F050BC5FBE8B /* Pods_BitsoChallenge_BitsoChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitsoChallenge_BitsoChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E19E12525B099B5E92B26A /* Pods-BitsoChallenge-BitsoChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitsoChallenge-BitsoChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-BitsoChallenge-BitsoChallengeUITests/Pods-BitsoChallenge-BitsoChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AB6318D225FE3F6500357361 /* BookInfiniteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookInfiniteViewController.swift; sourceTree = "<group>"; };
+		AB6318D325FE3F6500357361 /* BookInfiniteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookInfiniteViewController.xib; sourceTree = "<group>"; };
+		AB6318D725FE49BE00357361 /* BookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewCell.swift; sourceTree = "<group>"; };
+		AB6318D825FE49BE00357361 /* BookCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookCollectionViewCell.xib; sourceTree = "<group>"; };
+		AB77AB9225FE324B00771F70 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		AB9DFF3E25FEEF73001F8657 /* AvailableBooks.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AvailableBooks.json; sourceTree = "<group>"; };
+		AB9DFF4225FEEFD9001F8657 /* Book.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Book.json; sourceTree = "<group>"; };
+		AB9DFF4425FEF02D001F8657 /* ChartData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ChartData.json; sourceTree = "<group>"; };
+		AB9DFF4A25FEF2ED001F8657 /* AvailableBooksNetworkingMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableBooksNetworkingMock.swift; sourceTree = "<group>"; };
+		AB9DFF4C25FEF965001F8657 /* RepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryTests.swift; sourceTree = "<group>"; };
+		AB9DFF5025FF02B9001F8657 /* NetworkingFailureMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingFailureMock.swift; sourceTree = "<group>"; };
+		AB9DFF5225FF02FD001F8657 /* BookNetworkingMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookNetworkingMock.swift; sourceTree = "<group>"; };
+		AB9DFF5525FF031F001F8657 /* ChartNetworkingMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartNetworkingMock.swift; sourceTree = "<group>"; };
+		ABE54EA725FE56E00067E292 /* BookInfiniteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookInfiniteViewModel.swift; sourceTree = "<group>"; };
+		ABE54EA925FE70350067E292 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		ABE54EAC25FE74800067E292 /* HeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderViewController.swift; sourceTree = "<group>"; };
+		ABE54EAD25FE74800067E292 /* HeaderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderViewController.xib; sourceTree = "<group>"; };
+		ABE54EB025FE75C40067E292 /* HeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderViewModel.swift; sourceTree = "<group>"; };
+		ABEC530825FC173A00B1EE95 /* BitsoChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitsoChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABEC530B25FC173A00B1EE95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABEC530D25FC173A00B1EE95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ABEC530F25FC173A00B1EE95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABEC531225FC173A00B1EE95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABEC531425FC174000B1EE95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABEC531725FC174000B1EE95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABEC531925FC174000B1EE95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABEC531E25FC174000B1EE95 /* BitsoChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitsoChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABEC532225FC174000B1EE95 /* BitsoChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitsoChallengeTests.swift; sourceTree = "<group>"; };
+		ABEC532425FC174000B1EE95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABEC532925FC174000B1EE95 /* BitsoChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitsoChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABEC532D25FC174000B1EE95 /* BitsoChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitsoChallengeUITests.swift; sourceTree = "<group>"; };
+		ABEC532F25FC174000B1EE95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABEC533C25FC1E3F00B1EE95 /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
+		ABEC533F25FC3BBA00B1EE95 /* AvailableBooksDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableBooksDTO.swift; sourceTree = "<group>"; };
+		ABEC534725FC57E300B1EE95 /* Paths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paths.swift; sourceTree = "<group>"; };
+		ABEC534925FC585C00B1EE95 /* TargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
+		ABEC534B25FC59D400B1EE95 /* MainApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainApi.swift; sourceTree = "<group>"; };
+		ABEC534D25FC5D2B00B1EE95 /* NetworkRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRepository.swift; sourceTree = "<group>"; };
+		ABEC534F25FC5DDD00B1EE95 /* BookDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDTO.swift; sourceTree = "<group>"; };
+		ABEC536225FD08B400B1EE95 /* NSObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		ABEC536925FD830900B1EE95 /* BookListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookListViewController.swift; sourceTree = "<group>"; };
+		ABEC536B25FD830900B1EE95 /* BookTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
+		ABEC536C25FD830900B1EE95 /* BookTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookTableViewCell.xib; sourceTree = "<group>"; };
+		ABEC536D25FD830900B1EE95 /* BookCellDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookCellDataSource.swift; sourceTree = "<group>"; };
+		ABEC536E25FD830900B1EE95 /* BookListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookListViewModel.swift; sourceTree = "<group>"; };
+		ABEC536F25FD830900B1EE95 /* BookListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookListViewController.xib; sourceTree = "<group>"; };
+		ABEC537725FD837F00B1EE95 /* BookDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailViewController.swift; sourceTree = "<group>"; };
+		ABEC537825FD837F00B1EE95 /* BookDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookDetailViewController.xib; sourceTree = "<group>"; };
+		ABEC537B25FD83A700B1EE95 /* BookDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailViewModel.swift; sourceTree = "<group>"; };
+		ABEC537E25FD890400B1EE95 /* SlidePresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidePresentationController.swift; sourceTree = "<group>"; };
+		ABEC538025FD8BE100B1EE95 /* SlidePresentationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidePresentationManager.swift; sourceTree = "<group>"; };
+		ABF934E525FE8B8A00944789 /* AvailableBooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableBooks.swift; sourceTree = "<group>"; };
+		ABF9582525FECE5A002CBAC9 /* ChartDataDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDataDTO.swift; sourceTree = "<group>"; };
+		ABF9582725FECF31002CBAC9 /* ChartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartData.swift; sourceTree = "<group>"; };
+		CA351F6D2C152072F14FFA1E /* Pods-BitsoChallenge-BitsoChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitsoChallenge-BitsoChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-BitsoChallenge-BitsoChallengeUITests/Pods-BitsoChallenge-BitsoChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D28B924F6C6A70AC8E04A43D /* Pods_BitsoChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitsoChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D93A1AFF7474FD0A282E3664 /* Pods_BitsoChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitsoChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABEC530525FC173A00B1EE95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0CD073B03E3DCB85AE5CD00 /* Pods_BitsoChallenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEC531B25FC174000B1EE95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AADE8B452D52CD67BE256F6 /* Pods_BitsoChallengeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEC532625FC174000B1EE95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36A2F617D8DC58E82202B2DA /* Pods_BitsoChallenge_BitsoChallengeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34134EF9233E4B23ABC8B774 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D28B924F6C6A70AC8E04A43D /* Pods_BitsoChallenge.framework */,
+				4B9330DF5388F050BC5FBE8B /* Pods_BitsoChallenge_BitsoChallengeUITests.framework */,
+				D93A1AFF7474FD0A282E3664 /* Pods_BitsoChallengeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86520972FFC5AB40C5546C55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				186810F7102966DF23B9F462 /* Pods-BitsoChallenge.debug.xcconfig */,
+				0CB9C43F18BCAE1D89404CF9 /* Pods-BitsoChallenge.release.xcconfig */,
+				CA351F6D2C152072F14FFA1E /* Pods-BitsoChallenge-BitsoChallengeUITests.debug.xcconfig */,
+				50E19E12525B099B5E92B26A /* Pods-BitsoChallenge-BitsoChallengeUITests.release.xcconfig */,
+				29BA95A757DDCC98E3437F83 /* Pods-BitsoChallengeTests.debug.xcconfig */,
+				1DA8DD8688BFE530EEFB376A /* Pods-BitsoChallengeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AB6318D125FE3F4800357361 /* BookInfinite */ = {
+			isa = PBXGroup;
+			children = (
+				AB6318D225FE3F6500357361 /* BookInfiniteViewController.swift */,
+				AB6318D325FE3F6500357361 /* BookInfiniteViewController.xib */,
+				ABE54EA725FE56E00067E292 /* BookInfiniteViewModel.swift */,
+			);
+			path = BookInfinite;
+			sourceTree = "<group>";
+		};
+		AB6318D625FE493F00357361 /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				AB6318D725FE49BE00357361 /* BookCollectionViewCell.swift */,
+				AB6318D825FE49BE00357361 /* BookCollectionViewCell.xib */,
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		AB6318DB25FE538F00357361 /* BookCells */ = {
+			isa = PBXGroup;
+			children = (
+				ABEC536D25FD830900B1EE95 /* BookCellDataSource.swift */,
+				AB6318D625FE493F00357361 /* CollectionCell */,
+				ABEC536A25FD830900B1EE95 /* TableCell */,
+			);
+			path = BookCells;
+			sourceTree = "<group>";
+		};
+		AB77AB8A25FDA2B700771F70 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB77AB9125FE322600771F70 /* LoadingView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AB77AB9125FE322600771F70 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				AB77AB9225FE324B00771F70 /* LoadingView.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		AB9DFF3C25FEEF2B001F8657 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				AB9DFF4A25FEF2ED001F8657 /* AvailableBooksNetworkingMock.swift */,
+				AB9DFF5225FF02FD001F8657 /* BookNetworkingMock.swift */,
+				AB9DFF5525FF031F001F8657 /* ChartNetworkingMock.swift */,
+				AB9DFF5025FF02B9001F8657 /* NetworkingFailureMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		AB9DFF3D25FEEF3A001F8657 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AB9DFF3E25FEEF73001F8657 /* AvailableBooks.json */,
+				AB9DFF4225FEEFD9001F8657 /* Book.json */,
+				AB9DFF4425FEF02D001F8657 /* ChartData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ABE54EAB25FE745D0067E292 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				ABE54EAC25FE74800067E292 /* HeaderViewController.swift */,
+				ABE54EAD25FE74800067E292 /* HeaderViewController.xib */,
+				ABE54EB025FE75C40067E292 /* HeaderViewModel.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		ABEC52FF25FC173A00B1EE95 = {
+			isa = PBXGroup;
+			children = (
+				ABEC530A25FC173A00B1EE95 /* BitsoChallenge */,
+				ABEC532125FC174000B1EE95 /* BitsoChallengeTests */,
+				ABEC532C25FC174000B1EE95 /* BitsoChallengeUITests */,
+				ABEC530925FC173A00B1EE95 /* Products */,
+				86520972FFC5AB40C5546C55 /* Pods */,
+				34134EF9233E4B23ABC8B774 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ABEC530925FC173A00B1EE95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABEC530825FC173A00B1EE95 /* BitsoChallenge.app */,
+				ABEC531E25FC174000B1EE95 /* BitsoChallengeTests.xctest */,
+				ABEC532925FC174000B1EE95 /* BitsoChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABEC530A25FC173A00B1EE95 /* BitsoChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				ABEC534425FC56AA00B1EE95 /* Infraestructura */,
+				ABEC536525FD82BB00B1EE95 /* UI */,
+				ABEC536125FD089100B1EE95 /* Utils */,
+				ABEC530B25FC173A00B1EE95 /* AppDelegate.swift */,
+				ABEC530D25FC173A00B1EE95 /* SceneDelegate.swift */,
+				ABEC530F25FC173A00B1EE95 /* ViewController.swift */,
+				ABEC531125FC173A00B1EE95 /* Main.storyboard */,
+				ABEC531425FC174000B1EE95 /* Assets.xcassets */,
+				ABEC531625FC174000B1EE95 /* LaunchScreen.storyboard */,
+				ABEC531925FC174000B1EE95 /* Info.plist */,
+			);
+			path = BitsoChallenge;
+			sourceTree = "<group>";
+		};
+		ABEC532125FC174000B1EE95 /* BitsoChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB9DFF3D25FEEF3A001F8657 /* Resources */,
+				AB9DFF3C25FEEF2B001F8657 /* Mocks */,
+				ABEC532225FC174000B1EE95 /* BitsoChallengeTests.swift */,
+				AB9DFF4C25FEF965001F8657 /* RepositoryTests.swift */,
+				ABEC532425FC174000B1EE95 /* Info.plist */,
+			);
+			path = BitsoChallengeTests;
+			sourceTree = "<group>";
+		};
+		ABEC532C25FC174000B1EE95 /* BitsoChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABEC532D25FC174000B1EE95 /* BitsoChallengeUITests.swift */,
+				ABEC532F25FC174000B1EE95 /* Info.plist */,
+			);
+			path = BitsoChallengeUITests;
+			sourceTree = "<group>";
+		};
+		ABEC533E25FC3AB600B1EE95 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ABF934E525FE8B8A00944789 /* AvailableBooks.swift */,
+				ABF9582725FECF31002CBAC9 /* ChartData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ABEC534425FC56AA00B1EE95 /* Infraestructura */ = {
+			isa = PBXGroup;
+			children = (
+				ABEC533E25FC3AB600B1EE95 /* Models */,
+				ABF934E425FE8B0100944789 /* DTOs */,
+				ABEC534525FC56C800B1EE95 /* Repositories */,
+				ABEC534625FC57D600B1EE95 /* Target */,
+				ABEC533C25FC1E3F00B1EE95 /* NetworkingService.swift */,
+			);
+			path = Infraestructura;
+			sourceTree = "<group>";
+		};
+		ABEC534525FC56C800B1EE95 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				ABEC534D25FC5D2B00B1EE95 /* NetworkRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		ABEC534625FC57D600B1EE95 /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				ABEC534725FC57E300B1EE95 /* Paths.swift */,
+				ABEC534925FC585C00B1EE95 /* TargetType.swift */,
+				ABEC534B25FC59D400B1EE95 /* MainApi.swift */,
+			);
+			path = Target;
+			sourceTree = "<group>";
+		};
+		ABEC536125FD089100B1EE95 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				ABEC536225FD08B400B1EE95 /* NSObject+Extension.swift */,
+				ABE54EA925FE70350067E292 /* UIViewController+Extension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		ABEC536525FD82BB00B1EE95 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AB77AB8A25FDA2B700771F70 /* Views */,
+				ABEC536625FD830900B1EE95 /* ViewControllers */,
+				ABEC537625FD831500B1EE95 /* Cells */,
+				ABEC537D25FD88DA00B1EE95 /* Presentation */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		ABEC536625FD830900B1EE95 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				ABE54EAB25FE745D0067E292 /* Header */,
+				AB6318D125FE3F4800357361 /* BookInfinite */,
+				ABEC536725FD830900B1EE95 /* BookList */,
+				ABEC536825FD830900B1EE95 /* BookDetail */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		ABEC536725FD830900B1EE95 /* BookList */ = {
+			isa = PBXGroup;
+			children = (
+				ABEC536925FD830900B1EE95 /* BookListViewController.swift */,
+				ABEC536F25FD830900B1EE95 /* BookListViewController.xib */,
+				ABEC536E25FD830900B1EE95 /* BookListViewModel.swift */,
+			);
+			path = BookList;
+			sourceTree = "<group>";
+		};
+		ABEC536825FD830900B1EE95 /* BookDetail */ = {
+			isa = PBXGroup;
+			children = (
+				ABEC537725FD837F00B1EE95 /* BookDetailViewController.swift */,
+				ABEC537825FD837F00B1EE95 /* BookDetailViewController.xib */,
+				ABEC537B25FD83A700B1EE95 /* BookDetailViewModel.swift */,
+			);
+			path = BookDetail;
+			sourceTree = "<group>";
+		};
+		ABEC536A25FD830900B1EE95 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				ABEC536B25FD830900B1EE95 /* BookTableViewCell.swift */,
+				ABEC536C25FD830900B1EE95 /* BookTableViewCell.xib */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		ABEC537625FD831500B1EE95 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AB6318DB25FE538F00357361 /* BookCells */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		ABEC537D25FD88DA00B1EE95 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				ABEC537E25FD890400B1EE95 /* SlidePresentationController.swift */,
+				ABEC538025FD8BE100B1EE95 /* SlidePresentationManager.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		ABF934E425FE8B0100944789 /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+				ABEC533F25FC3BBA00B1EE95 /* AvailableBooksDTO.swift */,
+				ABEC534F25FC5DDD00B1EE95 /* BookDTO.swift */,
+				ABF9582525FECE5A002CBAC9 /* ChartDataDTO.swift */,
+			);
+			path = DTOs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABEC530725FC173A00B1EE95 /* BitsoChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABEC533225FC174000B1EE95 /* Build configuration list for PBXNativeTarget "BitsoChallenge" */;
+			buildPhases = (
+				2C5EF3FEEB4A49F82E78C3D0 /* [CP] Check Pods Manifest.lock */,
+				ABEC530425FC173A00B1EE95 /* Sources */,
+				ABEC530525FC173A00B1EE95 /* Frameworks */,
+				ABEC530625FC173A00B1EE95 /* Resources */,
+				0F60D6AE961EA74F0F44BEC4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitsoChallenge;
+			productName = BitsoChallenge;
+			productReference = ABEC530825FC173A00B1EE95 /* BitsoChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABEC531D25FC174000B1EE95 /* BitsoChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABEC533525FC174000B1EE95 /* Build configuration list for PBXNativeTarget "BitsoChallengeTests" */;
+			buildPhases = (
+				B9265B1C2B0AE3CBEA8A4640 /* [CP] Check Pods Manifest.lock */,
+				ABEC531A25FC174000B1EE95 /* Sources */,
+				ABEC531B25FC174000B1EE95 /* Frameworks */,
+				ABEC531C25FC174000B1EE95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABEC532025FC174000B1EE95 /* PBXTargetDependency */,
+			);
+			name = BitsoChallengeTests;
+			productName = BitsoChallengeTests;
+			productReference = ABEC531E25FC174000B1EE95 /* BitsoChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABEC532825FC174000B1EE95 /* BitsoChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABEC533825FC174000B1EE95 /* Build configuration list for PBXNativeTarget "BitsoChallengeUITests" */;
+			buildPhases = (
+				F7192A03C72730C6F89F8D25 /* [CP] Check Pods Manifest.lock */,
+				ABEC532525FC174000B1EE95 /* Sources */,
+				ABEC532625FC174000B1EE95 /* Frameworks */,
+				ABEC532725FC174000B1EE95 /* Resources */,
+				090B24613323BCE18C9708AA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABEC532B25FC174000B1EE95 /* PBXTargetDependency */,
+			);
+			name = BitsoChallengeUITests;
+			productName = BitsoChallengeUITests;
+			productReference = ABEC532925FC174000B1EE95 /* BitsoChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABEC530025FC173A00B1EE95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Junior Sancho";
+				TargetAttributes = {
+					ABEC530725FC173A00B1EE95 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					ABEC531D25FC174000B1EE95 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = ABEC530725FC173A00B1EE95;
+					};
+					ABEC532825FC174000B1EE95 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = ABEC530725FC173A00B1EE95;
+					};
+				};
+			};
+			buildConfigurationList = ABEC530325FC173A00B1EE95 /* Build configuration list for PBXProject "BitsoChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABEC52FF25FC173A00B1EE95;
+			productRefGroup = ABEC530925FC173A00B1EE95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABEC530725FC173A00B1EE95 /* BitsoChallenge */,
+				ABEC531D25FC174000B1EE95 /* BitsoChallengeTests */,
+				ABEC532825FC174000B1EE95 /* BitsoChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABEC530625FC173A00B1EE95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEC537225FD830900B1EE95 /* BookTableViewCell.xib in Resources */,
+				ABEC531825FC174000B1EE95 /* LaunchScreen.storyboard in Resources */,
+				ABEC537A25FD837F00B1EE95 /* BookDetailViewController.xib in Resources */,
+				AB6318DA25FE49BE00357361 /* BookCollectionViewCell.xib in Resources */,
+				ABEC537525FD830900B1EE95 /* BookListViewController.xib in Resources */,
+				ABE54EAF25FE74800067E292 /* HeaderViewController.xib in Resources */,
+				ABEC531525FC174000B1EE95 /* Assets.xcassets in Resources */,
+				ABEC531325FC173A00B1EE95 /* Main.storyboard in Resources */,
+				AB6318D525FE3F6500357361 /* BookInfiniteViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEC531C25FC174000B1EE95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9DFF4325FEEFD9001F8657 /* Book.json in Resources */,
+				AB9DFF3F25FEEF73001F8657 /* AvailableBooks.json in Resources */,
+				AB9DFF4525FEF02D001F8657 /* ChartData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEC532725FC174000B1EE95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		090B24613323BCE18C9708AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BitsoChallenge-BitsoChallengeUITests/Pods-BitsoChallenge-BitsoChallengeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BitsoChallenge-BitsoChallengeUITests/Pods-BitsoChallenge-BitsoChallengeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BitsoChallenge-BitsoChallengeUITests/Pods-BitsoChallenge-BitsoChallengeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0F60D6AE961EA74F0F44BEC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BitsoChallenge/Pods-BitsoChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BitsoChallenge/Pods-BitsoChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BitsoChallenge/Pods-BitsoChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C5EF3FEEB4A49F82E78C3D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BitsoChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9265B1C2B0AE3CBEA8A4640 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BitsoChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7192A03C72730C6F89F8D25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BitsoChallenge-BitsoChallengeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABEC530425FC173A00B1EE95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEC534E25FC5D2B00B1EE95 /* NetworkRepository.swift in Sources */,
+				ABEC534825FC57E300B1EE95 /* Paths.swift in Sources */,
+				AB77AB9325FE324B00771F70 /* LoadingView.swift in Sources */,
+				ABEC537925FD837F00B1EE95 /* BookDetailViewController.swift in Sources */,
+				ABEC537F25FD890400B1EE95 /* SlidePresentationController.swift in Sources */,
+				ABEC531025FC173A00B1EE95 /* ViewController.swift in Sources */,
+				ABEC536325FD08B400B1EE95 /* NSObject+Extension.swift in Sources */,
+				ABE54EA825FE56E00067E292 /* BookInfiniteViewModel.swift in Sources */,
+				ABEC530C25FC173A00B1EE95 /* AppDelegate.swift in Sources */,
+				AB6318D925FE49BE00357361 /* BookCollectionViewCell.swift in Sources */,
+				ABE54EAE25FE74800067E292 /* HeaderViewController.swift in Sources */,
+				ABE54EB125FE75C40067E292 /* HeaderViewModel.swift in Sources */,
+				ABEC537425FD830900B1EE95 /* BookListViewModel.swift in Sources */,
+				ABF934E625FE8B8A00944789 /* AvailableBooks.swift in Sources */,
+				AB6318D425FE3F6500357361 /* BookInfiniteViewController.swift in Sources */,
+				ABEC530E25FC173A00B1EE95 /* SceneDelegate.swift in Sources */,
+				ABE54EAA25FE70350067E292 /* UIViewController+Extension.swift in Sources */,
+				ABEC538125FD8BE100B1EE95 /* SlidePresentationManager.swift in Sources */,
+				ABEC537C25FD83A700B1EE95 /* BookDetailViewModel.swift in Sources */,
+				ABEC534025FC3BBA00B1EE95 /* AvailableBooksDTO.swift in Sources */,
+				ABF9582825FECF31002CBAC9 /* ChartData.swift in Sources */,
+				ABEC537325FD830900B1EE95 /* BookCellDataSource.swift in Sources */,
+				ABF9582625FECE5A002CBAC9 /* ChartDataDTO.swift in Sources */,
+				ABEC533D25FC1E3F00B1EE95 /* NetworkingService.swift in Sources */,
+				ABEC534C25FC59D400B1EE95 /* MainApi.swift in Sources */,
+				ABEC537125FD830900B1EE95 /* BookTableViewCell.swift in Sources */,
+				ABEC537025FD830900B1EE95 /* BookListViewController.swift in Sources */,
+				ABEC535025FC5DDD00B1EE95 /* BookDTO.swift in Sources */,
+				ABEC534A25FC585C00B1EE95 /* TargetType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEC531A25FC174000B1EE95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9DFF5625FF031F001F8657 /* ChartNetworkingMock.swift in Sources */,
+				AB9DFF5125FF02B9001F8657 /* NetworkingFailureMock.swift in Sources */,
+				AB9DFF5325FF02FD001F8657 /* BookNetworkingMock.swift in Sources */,
+				ABEC532325FC174000B1EE95 /* BitsoChallengeTests.swift in Sources */,
+				AB9DFF4B25FEF2ED001F8657 /* AvailableBooksNetworkingMock.swift in Sources */,
+				AB9DFF4D25FEF965001F8657 /* RepositoryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEC532525FC174000B1EE95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEC532E25FC174000B1EE95 /* BitsoChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABEC532025FC174000B1EE95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABEC530725FC173A00B1EE95 /* BitsoChallenge */;
+			targetProxy = ABEC531F25FC174000B1EE95 /* PBXContainerItemProxy */;
+		};
+		ABEC532B25FC174000B1EE95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABEC530725FC173A00B1EE95 /* BitsoChallenge */;
+			targetProxy = ABEC532A25FC174000B1EE95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABEC531125FC173A00B1EE95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABEC531225FC173A00B1EE95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABEC531625FC174000B1EE95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABEC531725FC174000B1EE95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABEC533025FC174000B1EE95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABEC533125FC174000B1EE95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABEC533325FC174000B1EE95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 186810F7102966DF23B9F462 /* Pods-BitsoChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XG4JVYZBDV;
+				INFOPLIST_FILE = BitsoChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junior.BitsoChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABEC533425FC174000B1EE95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CB9C43F18BCAE1D89404CF9 /* Pods-BitsoChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XG4JVYZBDV;
+				INFOPLIST_FILE = BitsoChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junior.BitsoChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABEC533625FC174000B1EE95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29BA95A757DDCC98E3437F83 /* Pods-BitsoChallengeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BitsoChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junior.BitsoChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitsoChallenge.app/BitsoChallenge";
+			};
+			name = Debug;
+		};
+		ABEC533725FC174000B1EE95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DA8DD8688BFE530EEFB376A /* Pods-BitsoChallengeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BitsoChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junior.BitsoChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitsoChallenge.app/BitsoChallenge";
+			};
+			name = Release;
+		};
+		ABEC533925FC174000B1EE95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA351F6D2C152072F14FFA1E /* Pods-BitsoChallenge-BitsoChallengeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BitsoChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junior.BitsoChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BitsoChallenge;
+			};
+			name = Debug;
+		};
+		ABEC533A25FC174000B1EE95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50E19E12525B099B5E92B26A /* Pods-BitsoChallenge-BitsoChallengeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BitsoChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.junior.BitsoChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BitsoChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABEC530325FC173A00B1EE95 /* Build configuration list for PBXProject "BitsoChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABEC533025FC174000B1EE95 /* Debug */,
+				ABEC533125FC174000B1EE95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABEC533225FC174000B1EE95 /* Build configuration list for PBXNativeTarget "BitsoChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABEC533325FC174000B1EE95 /* Debug */,
+				ABEC533425FC174000B1EE95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABEC533525FC174000B1EE95 /* Build configuration list for PBXNativeTarget "BitsoChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABEC533625FC174000B1EE95 /* Debug */,
+				ABEC533725FC174000B1EE95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABEC533825FC174000B1EE95 /* Build configuration list for PBXNativeTarget "BitsoChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABEC533925FC174000B1EE95 /* Debug */,
+				ABEC533A25FC174000B1EE95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABEC530025FC173A00B1EE95 /* Project object */;
+}
