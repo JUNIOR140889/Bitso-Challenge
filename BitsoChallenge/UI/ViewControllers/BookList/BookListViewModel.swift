@@ -38,7 +38,7 @@ final class BookListViewModel {
         }
     }
     
-    func getBookDetails(bookSymbol: String) {
+    private func getBookDetails(bookSymbol: String) {
         dispatchGroup.enter()
         repository.getBook(bookId: bookSymbol) { [weak self] (result: Result<Book, Error>) in
             switch result {

@@ -36,3 +36,9 @@ struct PayloadDTO: Codable {
         return Book(book: book)
     }
 }
+
+struct Response<T: Codable>: Codable {
+    let success: Bool
+    let payload: T
+    
+}

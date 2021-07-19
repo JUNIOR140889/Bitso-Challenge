@@ -5,7 +5,6 @@
 //  Created by Junior Sancho on 3/12/21.
 //  Copyright © 2021 Junior Sancho. All rights reserved.
 //
-import Foundation
 
 protocol TargetType {
     var baseURL: String { get }

@@ -29,11 +29,8 @@
 		ABE54EB125FE75C40067E292 /* HeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE54EB025FE75C40067E292 /* HeaderViewModel.swift */; };
 		ABEC530C25FC173A00B1EE95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEC530B25FC173A00B1EE95 /* AppDelegate.swift */; };
 		ABEC530E25FC173A00B1EE95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEC530D25FC173A00B1EE95 /* SceneDelegate.swift */; };
-		ABEC531025FC173A00B1EE95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEC530F25FC173A00B1EE95 /* ViewController.swift */; };
-		ABEC531325FC173A00B1EE95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABEC531125FC173A00B1EE95 /* Main.storyboard */; };
-		ABEC531525FC174000B1EE95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABEC531425FC174000B1EE95 /* Assets.xcassets */; };
 		ABEC531825FC174000B1EE95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABEC531625FC174000B1EE95 /* LaunchScreen.storyboard */; };
-		ABEC532325FC174000B1EE95 /* BitsoChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEC532225FC174000B1EE95 /* BitsoChallengeTests.swift */; };
+		ABEC532325FC174000B1EE95 /* BitsoChallengeIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEC532225FC174000B1EE95 /* BitsoChallengeIntegrationTests.swift */; };
 		ABEC532E25FC174000B1EE95 /* BitsoChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEC532D25FC174000B1EE95 /* BitsoChallengeUITests.swift */; };
 		ABEC533D25FC1E3F00B1EE95 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEC533C25FC1E3F00B1EE95 /* NetworkingService.swift */; };
 		ABEC534025FC3BBA00B1EE95 /* AvailableBooksDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEC533F25FC3BBA00B1EE95 /* AvailableBooksDTO.swift */; };
@@ -105,13 +102,10 @@
 		ABEC530825FC173A00B1EE95 /* BitsoChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitsoChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABEC530B25FC173A00B1EE95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABEC530D25FC173A00B1EE95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ABEC530F25FC173A00B1EE95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ABEC531225FC173A00B1EE95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ABEC531425FC174000B1EE95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABEC531725FC174000B1EE95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABEC531925FC174000B1EE95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABEC531E25FC174000B1EE95 /* BitsoChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitsoChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABEC532225FC174000B1EE95 /* BitsoChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitsoChallengeTests.swift; sourceTree = "<group>"; };
+		ABEC532225FC174000B1EE95 /* BitsoChallengeIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitsoChallengeIntegrationTests.swift; sourceTree = "<group>"; };
 		ABEC532425FC174000B1EE95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABEC532925FC174000B1EE95 /* BitsoChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitsoChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABEC532D25FC174000B1EE95 /* BitsoChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitsoChallengeUITests.swift; sourceTree = "<group>"; };
@@ -295,14 +289,11 @@
 		ABEC530A25FC173A00B1EE95 /* BitsoChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				ABEC534425FC56AA00B1EE95 /* Infraestructura */,
+				ABEC534425FC56AA00B1EE95 /* Infraestructure */,
 				ABEC536525FD82BB00B1EE95 /* UI */,
 				ABEC536125FD089100B1EE95 /* Utils */,
 				ABEC530B25FC173A00B1EE95 /* AppDelegate.swift */,
 				ABEC530D25FC173A00B1EE95 /* SceneDelegate.swift */,
-				ABEC530F25FC173A00B1EE95 /* ViewController.swift */,
-				ABEC531125FC173A00B1EE95 /* Main.storyboard */,
-				ABEC531425FC174000B1EE95 /* Assets.xcassets */,
 				ABEC531625FC174000B1EE95 /* LaunchScreen.storyboard */,
 				ABEC531925FC174000B1EE95 /* Info.plist */,
 			);
@@ -314,7 +305,7 @@
 			children = (
 				AB9DFF3D25FEEF3A001F8657 /* Resources */,
 				AB9DFF3C25FEEF2B001F8657 /* Mocks */,
-				ABEC532225FC174000B1EE95 /* BitsoChallengeTests.swift */,
+				ABEC532225FC174000B1EE95 /* BitsoChallengeIntegrationTests.swift */,
 				AB9DFF4C25FEF965001F8657 /* RepositoryTests.swift */,
 				ABEC532425FC174000B1EE95 /* Info.plist */,
 			);
@@ -339,7 +330,7 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		ABEC534425FC56AA00B1EE95 /* Infraestructura */ = {
+		ABEC534425FC56AA00B1EE95 /* Infraestructure */ = {
 			isa = PBXGroup;
 			children = (
 				ABEC533E25FC3AB600B1EE95 /* Models */,
@@ -348,7 +339,7 @@
 				ABEC534625FC57D600B1EE95 /* Target */,
 				ABEC533C25FC1E3F00B1EE95 /* NetworkingService.swift */,
 			);
-			path = Infraestructura;
+			path = Infraestructure;
 			sourceTree = "<group>";
 		};
 		ABEC534525FC56C800B1EE95 /* Repositories */ = {
@@ -392,8 +383,6 @@
 		ABEC536625FD830900B1EE95 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				ABE54EAB25FE745D0067E292 /* Header */,
-				AB6318D125FE3F4800357361 /* BookInfinite */,
 				ABEC536725FD830900B1EE95 /* BookList */,
 				ABEC536825FD830900B1EE95 /* BookDetail */,
 			);
@@ -403,6 +392,8 @@
 		ABEC536725FD830900B1EE95 /* BookList */ = {
 			isa = PBXGroup;
 			children = (
+				AB6318D125FE3F4800357361 /* BookInfinite */,
+				ABE54EAB25FE745D0067E292 /* Header */,
 				ABEC536925FD830900B1EE95 /* BookListViewController.swift */,
 				ABEC536F25FD830900B1EE95 /* BookListViewController.xib */,
 				ABEC536E25FD830900B1EE95 /* BookListViewModel.swift */,
@@ -571,8 +562,6 @@
 				AB6318DA25FE49BE00357361 /* BookCollectionViewCell.xib in Resources */,
 				ABEC537525FD830900B1EE95 /* BookListViewController.xib in Resources */,
 				ABE54EAF25FE74800067E292 /* HeaderViewController.xib in Resources */,
-				ABEC531525FC174000B1EE95 /* Assets.xcassets in Resources */,
-				ABEC531325FC173A00B1EE95 /* Main.storyboard in Resources */,
 				AB6318D525FE3F6500357361 /* BookInfiniteViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -709,7 +698,6 @@
 				AB77AB9325FE324B00771F70 /* LoadingView.swift in Sources */,
 				ABEC537925FD837F00B1EE95 /* BookDetailViewController.swift in Sources */,
 				ABEC537F25FD890400B1EE95 /* SlidePresentationController.swift in Sources */,
-				ABEC531025FC173A00B1EE95 /* ViewController.swift in Sources */,
 				ABEC536325FD08B400B1EE95 /* NSObject+Extension.swift in Sources */,
 				ABE54EA825FE56E00067E292 /* BookInfiniteViewModel.swift in Sources */,
 				ABEC530C25FC173A00B1EE95 /* AppDelegate.swift in Sources */,
@@ -743,7 +731,7 @@
 				AB9DFF5625FF031F001F8657 /* ChartNetworkingMock.swift in Sources */,
 				AB9DFF5125FF02B9001F8657 /* NetworkingFailureMock.swift in Sources */,
 				AB9DFF5325FF02FD001F8657 /* BookNetworkingMock.swift in Sources */,
-				ABEC532325FC174000B1EE95 /* BitsoChallengeTests.swift in Sources */,
+				ABEC532325FC174000B1EE95 /* BitsoChallengeIntegrationTests.swift in Sources */,
 				AB9DFF4B25FEF2ED001F8657 /* AvailableBooksNetworkingMock.swift in Sources */,
 				AB9DFF4D25FEF965001F8657 /* RepositoryTests.swift in Sources */,
 			);
@@ -773,14 +761,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ABEC531125FC173A00B1EE95 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ABEC531225FC173A00B1EE95 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ABEC531625FC174000B1EE95 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -918,7 +898,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.junior.BitsoChallenge;
+				PRODUCT_BUNDLE_IDENTIFIER = com.junior.BitsoTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -937,7 +917,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.junior.BitsoChallenge;
+				PRODUCT_BUNDLE_IDENTIFIER = com.junior.BitsoTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -49,7 +49,8 @@ final class BookInfiniteViewController: UIViewController {
     // MARK: - Private Methods
     @objc private func slideToNext() {
         let index = IndexPath(row: counter, section: 0)
-        collectionView.scrollToItem(at: index, at: .centeredHorizontally, animated: true)
+        collectionView.scrollToItem(at: index, at: .centeredHorizontally, animated: !(counter == viewModel.books.count
+        ))
         counter = counter < viewModel.books.count ? counter + 1 : 0
     }
 
